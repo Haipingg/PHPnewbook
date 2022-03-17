@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	padding:0px; 
+	margin: 0px;
+	background: url( ../img/u=889657836,2220223783&fm=26&gp=0.jpg.png) no-repeat;
+	background-size: 100%;
+}
+#boxes{
+	margin:0px;
+	padding: 0px 0px 0px 0px;
+}
+a{
+	color:#b0b0b0;
+	text-decoration: none;
+}
+a:hover{
+	color: orangered;
+	text-decoration: none;
+}
+
+#boxes #top{
+	line-height: 45px;	
+	height: 45px;	
+	padding:0px 300px ;
+	margin: 0px;
+	background-color: #333;
+	clear:both;
+	position: relative;
+	font-size: 20px;
+}
+#top #titlel,#titlel-small{
+	float: left;
+	color: #b0b0b0;
+	position:relative;
+	display: block;
+	margin-right: 15px;
+}
+#top #titlel-small{
+	font-size: 15px;
+	padding-top: 3px;
+}
+#top #titler{
+	width: 100px;
+	float: right;
+	text-align: center;
+}
+#titler a{
+	display:block;
+	color:aliceblue;
+	text-decoration: none;
+	background-color: #F50D14;
+	
+}
+#titler a:hover{
+	background-color: aliceblue;
+	color:#F50D14;
+	text-decoration: none;
+	width: 100%;
+}
+#boxes #sel-title{
+	margin: 0px 300px;
+	padding: 0px 0px;
+	height: 50px;
+	position: relative;
+	display: block;
+}
+#sel-title #title-text1,#title-text2,#title-text3{
+	float: right;
+	color:white;
+	padding:0px 30px;
+	height: 100%;
+	margin: 10px 20px;
+	width: 50px;
+}
+#title-text1{
+	background: url(../img/1.png)no-repeat;
+}
+#title-text2{
+	background: url( ../img/2.png)no-repeat;
+}
+#title-text3{
+	background: url( ../img/3.png)no-repeat;
+}
+#boxes #sel{
+	padding: 0px 300px;
+	margin-top: 4px;
+	position: relative;
+}
+ 
+img{
+        width: 1049px;
+        height: 400px;
+		margin: 0px;
+		padding: 0px;
+    }
+.slides {
+  box-shadow: 0px 5px 6px black;
+  margin: 0px;
+  padding: 0px 300px;
+  height: 400px;
+  overflow: hidden;
+}
+ 
+.slides img { 
+  position: absolute; 
+  transition: opacity 1s;
+  opacity: 0;
+}
+ 
+.slides img:first-child { 
+  z-index: 0;
+  opacity: 1;
+}
+ 
+.slides img:last-child {
+  z-index: -1;
+  opacity: 1;
+}
+#sel #list-bg{
+	margin: 0px;
+	display: block;
+	background:url( ../img/u=282265765,1926417026&fm=26&gp=0.jpg) no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 40px;
+	padding:0px ;
+}
+#list-bg #list-title{
+	color: #ffe00e;
+	background-image: url(../img/t4.png);
+	background-repeat: no-repeat;
+	background-position: 0 center;
+	line-height: 40px;
+	font-size: 16px;
+	float: left;
+	display: block;
+	padding-left: 23px;
+	margin-left: 40px;
+}
+#list-title-right{
+	float: right;
+	
+}
+#sel #left{
+	margin-left: 0px;
+	width: 335px;
+	padding-top:20px;
+	
+	left: 0px;
+	display: block;
+	background-color: #333;
+	float: left;
+}
+#sel #left #book1 {
+	padding: 0px 0px 20px 0px;
+	display: table;
+	margin: 0px;
+	color:#333;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+#left dl:hover{
+	background-color: orangered;
+}
+#book1 #bigtitle{
+	float: left;
+	font-size:25px;
+	color:white;
+	width:90px;
+}
+#book1 #totaltitle{
+	float: left;
+	margin-left: 5px;
+	padding: 0px;
+	display: block;
+	
+}
+#totaltitle #tmeun{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	width: 200px;
+	color: #fff;
+	display: table;
+}
+#totaltitle li,ul{
+	margin-right: 10px;
+	height: 20px;
+	list-style: none;
+	float: left;
+	width: 80px;
+	display: block;
+	color: #b0b0b0;
+}
+#sel #right{
+	margin: 0px;
+	background-color:#f5f5f5;
+	background-size: cover;
+	width: 68%;
+	margin-left: 0px;
+	display: block;
+	float: left;
+}
+#right .put{
+	width: 31%;
+	float: left;
+	transition: all 0.5s;
+	text-align: center;	
+	display: block;
+	position: relative;
+	margin:5px;
+	cursor: pointer;	
+}
+.put:hover{
+	box-shadow: 0px 15px 20px rgba(0,0,0,90);
+		
+}
+.put img{
+	width: 100%;
+	height: 200px;
+}
+
+
+.put-image{
+	width:100%;
+	display: block;
+}
+.put-text{
+	padding: 10px 0px 0px;
+	width: 100%;
+	display: block;
+	color: #333;
+	
+}
+.put .put-money{
+	color: #c00000;
+	margin-top: 10px;
+	text-align: center;	
+	font-size: 24px;
+	line-height: 24px;
+	width: 100%;
+}
+.put-text:hover{
+	color: red;
+}
+.put .cart-on{
+	cursor: pointer;
+	width: 100%;
+	margin: 0px;
+}
+.show{
+	transition: all 0.5s;
+	text-align: center;
+	font-size: 25px;
+	line-height: 40px;
+	
+	
+}
+.show:hover{
+	background-color: #ff3600;
+	color: white;
+}

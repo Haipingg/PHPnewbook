@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="../CSS/css1.css" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>欢迎浏览</title>
+<script>
+function ex()
+{
+	var displayElement=document.getElementById("middle").style.display;				
+	if (displayElement=="none")
+	{
+        displayElement="block";
+     }else{
+			 displayElement="none";
+		   }
+			 
+    document.getElementById("middle").style.display=displayElement;			 	
+}
+		
+ 
+
+</script>
+
+</head>
+
+<body onload="alert('恭喜你，下单成功。');">
+<div id="main" >
+     <div id="mainLeft" >
+    <a style="font-size:40px" href="shiyan.php">点击这里返回主页面</a><br>
+	</div>
+     </div>
+
+</body>
+</html>
